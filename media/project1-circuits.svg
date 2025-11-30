@@ -1,0 +1,33 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Circuit board background -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+  
+  <!-- Circuit lines -->
+  <line x1="50" y1="50" x2="150" y2="50" stroke="#0099ff" stroke-width="2"/>
+  <line x1="150" y1="50" x2="150" y2="150" stroke="#0099ff" stroke-width="2"/>
+  <line x1="150" y1="150" x2="250" y2="150" stroke="#0099ff" stroke-width="2"/>
+  <line x1="250" y1="150" x2="250" y2="250" stroke="#0099ff" stroke-width="2"/>
+  
+  <line x1="100" y1="100" x2="200" y2="100" stroke="#00ff88" stroke-width="2"/>
+  <line x1="200" y1="100" x2="200" y2="200" stroke="#00ff88" stroke-width="2"/>
+  <line x1="200" y1="200" x2="300" y2="200" stroke="#00ff88" stroke-width="2"/>
+  
+  <!-- Circuit nodes/connections -->
+  <circle cx="50" cy="50" r="5" fill="#0099ff"/>
+  <circle cx="150" cy="50" r="5" fill="#0099ff"/>
+  <circle cx="150" cy="150" r="5" fill="#0099ff"/>
+  <circle cx="250" cy="150" r="5" fill="#0099ff"/>
+  <circle cx="250" cy="250" r="5" fill="#0099ff"/>
+  
+  <circle cx="100" cy="100" r="5" fill="#00ff88"/>
+  <circle cx="200" cy="100" r="5" fill="#00ff88"/>
+  <circle cx="200" cy="200" r="5" fill="#00ff88"/>
+  <circle cx="300" cy="200" r="5" fill="#00ff88"/>
+  
+  <!-- Larger nodes -->
+  <circle cx="80" cy="150" r="8" fill="#ff0099" opacity="0.8"/>
+  <circle cx="280" cy="80" r="8" fill="#ffaa00" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#0099ff" text-anchor="middle">Logical Circuits</text>
+</svg>
