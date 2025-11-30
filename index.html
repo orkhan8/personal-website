@@ -1,0 +1,106 @@
+---
+layout: default
+title: Orkhan Shahmuradli - Personal Portfolio
+---
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">Orkhan</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Orkhan Shahmuradli</h1>
+                <p>Computer Science Student at ADA University</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I'm currently learning web development and expanding my skills in programming. 
+                    I enjoy building projects and solving problems with code.
+                </p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="{{ '/media/project1.svg' | relative_url }}" alt="Personal website screenshot" class="project-thumb">
+                        <h3>Personal Website</h3>
+                        <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript. This homework uses Jekyll for bonus points.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="{{ '/media/project1.svg' | relative_url }}" alt="Project two screenshot" class="project-thumb">
+                        <h3>Project 2</h3>
+                        <p>Replace this with your second project's description and a link to the live demo or repo.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="{{ '/media/project1.svg' | relative_url }}" alt="Project three screenshot" class="project-thumb">
+                        <h3>Project 3</h3>
+                        <p>Replace this with your third project's description and a link to the live demo or repo.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out to me through any of these platforms or using the contact form below:</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">Email</a>
+                    <a href="https://linkedin.com" class="contact-link">LinkedIn</a>
+                    <a href="https://github.com" class="contact-link">GitHub</a>
+                </div>
+
+                <!-- Simple contact form (replace FORM_ID with your Formspree form ID, or connect via Netlify Forms) -->
+                <form class="contact-form" method="POST" action="https://formspree.io/f/FORM_ID" aria-label="Contact form">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                    <p class="form-note">Tip: replace <code>FORM_ID</code> in the form's action with your Formspree form ID or configure Netlify Forms.</p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Orkhan Shahmuradli. All rights reserved.</p>
+        </footer>

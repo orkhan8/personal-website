@@ -1,0 +1,7 @@
+_site/
+.bundle/
+.sass-cache/
+node_modules/
+# OS files
+Thumbs.db
+.DS_Store

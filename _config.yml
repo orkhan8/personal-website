@@ -1,0 +1,8 @@
+title: Orkhan Shahmuradli - Personal Portfolio
+baseurl: "" # change if you host under a subpath, e.g. /username.github.io/repo
+url: "" # optional: set to https://yourdomain.com for absolute links
+
+# Use safe defaults so GitHub Pages can build without plugins
+markdown: kramdown
+theme: null
+exclude: ["README.md"]
