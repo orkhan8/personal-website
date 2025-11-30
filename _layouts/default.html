@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
-  <link rel="icon" type="image/png" href="{{ '/media/ada_logo_color.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 </head>
 <body>
   {{ content }}
 
-  <script src="{{ '/scripts.js' | relative_url }}"></script>
+  <script src="{{ site.baseurl }}/scripts.js"></script>
 </body>
 </html>

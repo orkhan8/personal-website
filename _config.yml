@@ -1,8 +1,9 @@
 title: Orkhan Shahmuradli - Personal Portfolio
-baseurl: "" # change if you host under a subpath, e.g. /username.github.io/repo
-url: "" # optional: set to https://yourdomain.com for absolute links
+baseurl: /personal-website
+url: https://orkhan8.github.io
 
-# Use safe defaults so GitHub Pages can build without plugins
 markdown: kramdown
-theme: null
-exclude: ["README.md"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+
+# Include all files by default
+include: ["_layouts", "styles.css", "scripts.js", "media"]
