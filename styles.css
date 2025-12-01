@@ -169,11 +169,12 @@ body {
 
 /* Card/frame around profile content */
 .profile-card {
-    background-color: #ffffff;
+    /* semi-transparent blue frame */
+    background-color: rgba(52,152,219,0.06);
     border-radius: 12px;
     padding: 1.25rem 1.5rem;
-    box-shadow: 0 10px 30px rgba(32,33,36,0.06);
-    border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: 0 10px 30px rgba(52,152,219,0.06);
+    border: 1px solid rgba(52,152,219,0.14);
     margin: 1rem 0;
 }
 
