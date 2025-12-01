@@ -140,10 +140,32 @@ body {
     color: #555;
     font-style: italic;
     font-weight: 400;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* allow wrapping on larger screens; truncated only on very small screens */
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
 }
+
+/* Two-column layout for profile: photo left, text right */
+.profile-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.profile-row .profile-photo-wrap {
+    flex: 0 0 180px;
+    align-items: flex-start;
+    text-align: left;
+}
+.profile-row .profile-photo {
+    width: 160px;
+    height: 160px;
+}
+.profile-extra {
+    flex: 1 1 auto;
+}
+
 
 @media (max-width: 768px) {
     .profile-photo-wrap { align-items: center; text-align: center; }
