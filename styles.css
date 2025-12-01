@@ -164,6 +164,7 @@ body {
 }
 .profile-extra {
     flex: 1 1 auto;
+    transform: translateY(-0.4rem);
 }
 
 
@@ -180,6 +181,7 @@ body {
     }
     .profile-row .profile-photo-wrap { align-items: center; text-align: center; }
     .profile-extra { text-align: center; }
+    .profile-extra { transform: none; }
 }
 
 @media (max-width: 768px) {
