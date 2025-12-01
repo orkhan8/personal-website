@@ -125,7 +125,7 @@ body {
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
-.profile-photo-wrap { text-align: center; }
+.profile-photo-wrap { margin: 1rem 0 1.5rem 0; align-self: flex-start; text-align: left; }
 .photo-caption {
     margin-top: 0.5rem;
     font-size: 0.95rem;
