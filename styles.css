@@ -125,6 +125,11 @@ body {
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
+.profile-photo-large {
+    width: 200px;
+    height: 200px;
+}
+
 .profile-photo-wrap {
     margin: 1rem 0 1.5rem 0;
     align-self: flex-start;
